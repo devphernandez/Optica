@@ -44,7 +44,7 @@ class Logger  {
 	//formatea el mensaje de error para guardar la nueva linea
 	public function addLine($clase, $mensaje){
 		$mensaje = is_array($mensaje) ? print_r($mensaje, true) : $mensaje;
-		$mensaje = date("[d-m-Y h:i:s]") . ": $clase -- $mensaje\n";
+		$mensaje = date("[d-m-Y h:i:s]") . " $clase -- $mensaje\n";
 		$this->_save($mensaje);
 	}
 }
