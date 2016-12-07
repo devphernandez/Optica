@@ -1,1 +1,0 @@
-<iframe src="Logger.txt"></iframe>
