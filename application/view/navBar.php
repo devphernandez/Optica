@@ -1,5 +1,5 @@
 	<header>
-			<nav>
+			<nav class="green lighten-1">
 				<div class="container">
 					<a href="#!" class="brand-logo">Logo</a>
 					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>

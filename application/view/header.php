@@ -21,5 +21,5 @@
 		<script src="../../resource/js/materialize.min.js"></script>
 		<script src="../../resource/js/script.js"></script>
 	</head>
-	<body>
+	<body class="light-green lighten-4">
 	
