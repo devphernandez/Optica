@@ -3,12 +3,12 @@
 		<main>
             <div class="container">
 				<h3>Inventario</h3>
-				<div class="divider white"></div>
 				<div class="row">
 					<!--Tarjeta para ingresar nuevos productos-->
 					<div class="col s12 m6">
 						<div class="card">
 							<div class="card-content">
+								<span class="card-title">Agregar un nuevo producto</span>
 								<div class="row">
 									<div class="col s12">
 										<div class="row">
@@ -35,33 +35,41 @@
 							</div>
 						</div>
 					</div>
-					<!--Tarjeta que muestra los diferentes marcos-->
 					<div class="col s12 m6">
-					  <div class="card blue-grey lighten-2">
-						<div class="card-content white-text">
-						  <span class="card-title">Cantidad de marcos diferentes: 43</span>
+						<div class="card blue-grey lighten-2">
+							<div class="card-content">
+								<span class="card-title white-text">Resumen</span>
+								<div class="row s12 m12 l12">
+									<!--Tarjeta que muestra los diferentes marcos-->
+									<div class="col s12 m12">
+									  <div class="card">
+										<div class="card-content">
+										  <p>Cantidad de marcos diferentes: 43</p>
+										</div>
+									  </div>
+									</div>
+									<!--Tarjeta que muestra la cantidad marcos-->
+									<div class="col s12 m12">
+									  <div class="card">
+										<div class="card-content">
+										  <p>Cantidad de marcos totales: 265</p>
+										</div>
+									  </div>
+									</div>
+									<!--Tarjeta que muestra el valor total de los marcos-->
+									<div class="col s12 m12">
+									  <div class="card">
+										<div class="card-content">
+										  <p>Valor total de los marcos: $439.000 clp</p>
+										</div>
+									  </div>
+									</div>	
+								</div>
+							</div>
 						</div>
-					  </div>
 					</div>
-					<!--Tarjeta que muestra la cantidad marcos-->
-					<div class="col s12 m6">
-					  <div class="card blue-grey lighten-2">
-						<div class="card-content white-text">
-						  <span class="card-title">Cantidad de marcos totales: 265</span>
-						</div>
-					  </div>
-					</div>
-					<!--Tarjeta que muestra el valor total de los marcos-->
-					<div class="col s12 m6">
-					  <div class="card blue-grey lighten-2">
-						<div class="card-content white-text">
-						  <span class="card-title">Valor total de los marcos: $439.000 clp</span>
-						</div>
-					  </div>
-					</div>	
 				</div>
 				<!--fin row agregar producto-->
-				<div class="divider white"></div>
 				<!--inicio row de tabla de productos-->
 				<div class="row">
 					<div class="col s12 m12 l12">
